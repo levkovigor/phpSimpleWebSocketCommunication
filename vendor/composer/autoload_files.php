@@ -22,5 +22,6 @@ return array(
     'd4e415514e4352172d58f02433fa50e4' => $vendorDir . '/amphp/socket/src/functions.php',
     '1c2dcb9d6851a7abaae89f9586ddd460' => $vendorDir . '/amphp/socket/src/Internal/functions.php',
     '244240de28ad61783068aef6c6b63aea' => $vendorDir . '/league/uri-schemes/src/functions_include.php',
+    'decc78cc4436b1292c6c0d151b19445c' => $vendorDir . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     'ec5ab6981b6a35264b581413ab1e90f5' => $vendorDir . '/amphp/websocket-client/lib/functions.php',
 );

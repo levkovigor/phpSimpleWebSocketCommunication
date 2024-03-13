@@ -23,10 +23,15 @@ class ComposerStaticInitc7252bad24b620bd0f9e29dace99637c
         'd4e415514e4352172d58f02433fa50e4' => __DIR__ . '/..' . '/amphp/socket/src/functions.php',
         '1c2dcb9d6851a7abaae89f9586ddd460' => __DIR__ . '/..' . '/amphp/socket/src/Internal/functions.php',
         '244240de28ad61783068aef6c6b63aea' => __DIR__ . '/..' . '/league/uri-schemes/src/functions_include.php',
+        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         'ec5ab6981b6a35264b581413ab1e90f5' => __DIR__ . '/..' . '/amphp/websocket-client/lib/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'p' => 
+        array (
+            'phpseclib3\\' => 11,
+        ),
         'W' => 
         array (
             'WebSocket\\' => 10,
@@ -52,6 +57,8 @@ class ComposerStaticInitc7252bad24b620bd0f9e29dace99637c
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
+            'PhpAmqpLib\\' => 11,
+            'ParagonIE\\ConstantTime\\' => 23,
         ),
         'M' => 
         array (
@@ -87,6 +94,10 @@ class ComposerStaticInitc7252bad24b620bd0f9e29dace99637c
     );
 
     public static $prefixDirsPsr4 = array (
+        'phpseclib3\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
         'WebSocket\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib',
@@ -145,6 +156,14 @@ class ComposerStaticInitc7252bad24b620bd0f9e29dace99637c
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
+        'PhpAmqpLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
+        ),
+        'ParagonIE\\ConstantTime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
+        ),
         'MyApp\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -155,8 +174,8 @@ class ComposerStaticInitc7252bad24b620bd0f9e29dace99637c
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-parser/src',
-            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            1 => __DIR__ . '/..' . '/league/uri-parser/src',
             2 => __DIR__ . '/..' . '/league/uri-schemes/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
